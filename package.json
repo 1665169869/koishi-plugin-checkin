@@ -1,7 +1,7 @@
 {
   "name": "@ibaiyu/koishi-plugin-checkin",
   "description": "每日签到插件，改自koishi-plugin-checkin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
