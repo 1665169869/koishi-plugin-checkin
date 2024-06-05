@@ -3,6 +3,17 @@
   "description": "每日签到插件，改自koishi-plugin-checkin",
   "version": "1.0.0",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibaiyu/koishi-plugin-checkin.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "contributors": [
+    "iBaiYu <1665169869@qq.com>"
+  ],
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
@@ -12,7 +23,10 @@
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "checkin",
+    "签到",
+    "打卡"
   ],
   "peerDependencies": {
     "koishi": "^4.17.7",
